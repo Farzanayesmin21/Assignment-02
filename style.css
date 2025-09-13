@@ -296,3 +296,38 @@ ul.list-items{
     cursor: pointer;
     margin-left: 10px;
 }
+/* 7.Footer Section style*/
+.footer {
+    padding: 50px 5% 20px;
+}
+
+.footer-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #444;
+}
+
+.footer-logo img {
+    height: 50px;
+    margin-right: 10px;
+}
+
+.footer-logo p {
+    font-size: 0.9em;
+    color: var(--light-text-color);
+    margin-top: 15px;
+}
+
+
+.footer ul {
+    list-style: none;
+}
+
+
+.social-links img {
+    margin-right: 15px;
+    font-size: 1.2em;
+    transition: color 0.3s;
+}
